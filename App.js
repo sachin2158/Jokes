@@ -1,5 +1,5 @@
 import React,{useState,useEffect}from 'react'
-import {View,Text,Button,StyleSheet,TextInput,ImageBackground} from 'react-native';
+import {View,Text,Button,StyleSheet,TextInput} from 'react-native';
 
 function App(){
 	const [jokes,setJokes]=useState("Loading....")
